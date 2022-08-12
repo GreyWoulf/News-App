@@ -1,8 +1,10 @@
 import './App.css';
+import NewsList from './components/NewsList';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <NewsList />
     </div>
   );
 }
